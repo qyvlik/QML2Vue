@@ -7,7 +7,7 @@ Item {
     property string message: "Hello Vue.js!"
 
     Button {
-        text: "Reverse Message"
+        text: message
         onClicked: reverseMessage();
     }
     function reverseMessage(){

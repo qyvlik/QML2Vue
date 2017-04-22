@@ -8,8 +8,7 @@ Look at the follow code:
 
 ```
     <div id="app">
-      <p>{{ message }}</p>
-      <button v-on:click="reverseMessage">Reverse Message</button>
+      <button v-on:click="reverseMessage">{{ message }}</button>
     </div>
 
     new Vue({
